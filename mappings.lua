@@ -32,6 +32,7 @@ return {
       end,
       desc = "Switch Buffers",
     },
+
     -- Rename
     ["yrw"] = { "yiw:s/\\C\\<<C-R>0\\>/" },
     ["yrW"] = { "yiW:s/\\C\\<<C-R>0\\>/" },
