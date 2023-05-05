@@ -24,15 +24,15 @@ function M.mode()
   local mode = get_mode:lower()
   local icon = "ﮊ "
   if mode == "n" then
-    icon = " "
+    icon = "   "
   elseif mode == "i" then
-    icon = "ﲅ "
+    icon = "    "
   elseif mode == "v" or mode == "" or mode == "s" then
-    icon = " "
+    icon = "    "
   elseif mode == "r" then
-    icon = " "
+    icon = "    "
   elseif mode == "c" or mode == "t" then
-    icon = " "
+    icon = "    "
   end
   return " " .. icon .. mode_text .. " "
 end
