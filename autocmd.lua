@@ -1,3 +1,4 @@
+-- entry
 vim.api.nvim_create_augroup("winblend", { clear = true })
 vim.api.nvim_create_autocmd("VimEnter", {
   group = "winblend",
